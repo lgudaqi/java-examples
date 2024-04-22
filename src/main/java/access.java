@@ -8,6 +8,12 @@
 @FunctionalInterface
 public interface access {
 
+    /**
+     * Decides whether access is granted
+     * depending on particular implementation.
+     * @param code Code to attempt to get access.
+     * @return Whether code grants access.
+     */
     boolean accessGranted(String code);
 
 }
