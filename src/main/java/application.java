@@ -49,6 +49,16 @@ public class application {
     }
 
     /**
+     * Application-objects are defined
+     * by their access-implementation.
+     * @return hashCode of the application-object.
+     */
+    @Override
+    public int hashCode() {
+        return appAccess.hashCode();
+    }
+
+    /**
      * Logs the user out and prints a message
      * regarding the status of the logout.
      * @return Whether user is logged out.
