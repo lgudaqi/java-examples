@@ -21,7 +21,7 @@ public class static_methods {
             Then one counter variable moves from the beginning
             of the String-object forwards
             and one from the end of the String-object backwards
-            while checking whether the value at the index
+            while checking whether the char-value at the index
             of the value of the first
             and the second counter variable are the same.
             If that's not the case at some point,
